@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import emergency from "../../Assets/Projects/emergency.png";
-import comingsoon from "../../Assets/Projects/comingsoon.png";
 import assignment from "../../Assets/Projects/assignment.png";
 import hotel from "../../Assets/Projects/hotel.png";
 import forensic from "../../Assets/Projects/forensic.png";
 import drowsiness from "../../Assets/Projects/drowsiness.png";
+import socialmediaapp from "../../Assets/Projects/socialmediaapp.png";
 
 function Projects() {
   return (
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={comingsoon}
+              imgPath={socialmediaapp}
               isBlog={false}
               title="Social Media Feed app using Django"
               description="The Social Media Feed App is a Django-based platform designed for users to create and share posts, follow other users, and interact with content through likes and comments. The application mimics core features of popular social media platforms by providing a dynamic feed of posts from the users that someone follows. It also includes features like user profiles and hashtags for a rich user experience"
