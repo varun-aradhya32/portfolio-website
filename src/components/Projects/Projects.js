@@ -8,6 +8,7 @@ import hotel from "../../Assets/Projects/hotel.png";
 import forensic from "../../Assets/Projects/forensic.png";
 import drowsiness from "../../Assets/Projects/drowsiness.png";
 import socialmediaapp from "../../Assets/Projects/socialmediaapp.png";
+import traffic from "../../Assets/Projects/traffic.png";
 
 function Projects() {
   return (
@@ -29,6 +30,17 @@ function Projects() {
               description="The Forensic Evidence Management and Investigation System is designed to streamline the collection, cataloging, and analysis of forensic evidence for law enforcement agencies and forensic teams. It helps investigators document case details, link suspects to evidence, and generate reports to aid in the investigation process."
               ghLink="https://github.com/varun-aradhya32/Forensic-Evidence-Management-and-Investigation-System.git"
               //demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={traffic}
+              isBlog={false}
+              title="Traffic Jam and Accident-prone Vehicle Prediction"
+              description="Created a Traffic Analysis Dashboard that uses deep learning to analyze video footage for predicting traffic congestion and accident-prone vehicles. The tool offers a seamless interface for uploading videos, processing results in real-time, and downloading outputs, enhancing traffic monitoring and predictive capabilities."
+              ghLink="https://github.com/varun-aradhya32/Traffic_Jam_and_Accident_Prone_Vehicle_Prediction.git"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
 
